@@ -1,0 +1,48 @@
+.logo .navbar-brand img {
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    max-width: 100%;
+}
+
+.carousel-item{
+    height: 80vh;/*tinggi carousel*/
+}
+.carousel-item img{
+    height: 100%; /*gambar menyesuaikan tinggi carousel */
+    width: 100%;
+    object-fit: fill;
+
+
+}
+.card {
+    position: absolute;
+    top: 80%; /* Naik sedikit dari bagian bawah carousel */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Sesuaikan lebar card */
+    background: rgba(255, 255, 255, 0.9); /* Bikin semi-transparan */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-body a {
+    transition: color 0.3s ease-in-out;
+}
+
+.card-body a:hover {
+    color: #007bff; /* Ubah warna teks dan ikon saat hover */
+}
+
+.card-body a:hover i {
+    color: #007bff; /* Ubah warna ikon saat hover */
+}
+
+.card-body .col-sm {
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.card-body .col-sm:hover {
+    background-color: #f8f9fa; /* Ubah warna latar saat hover */
+}
